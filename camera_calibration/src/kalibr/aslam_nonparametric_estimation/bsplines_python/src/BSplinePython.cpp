@@ -2,6 +2,9 @@
 
 #include <bsplines/BSpline.hpp>
 
+#include <functional>
+using namespace std::placeholders;
+
 using namespace bsplines;
 using namespace boost::python;
 

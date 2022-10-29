@@ -730,7 +730,7 @@ def plotOutlierCorners(cself, removedOutlierCorners, fno=1, clearFigure=True, ti
         #plot
         subplot_rows = np.ceil( np.sqrt(len(cself.cameras)) )
         subplot_cols = np.ceil( np.sqrt(len(cself.cameras)) )
-        pl.subplot(subplot_rows, subplot_cols, cidx+1)
+        pl.subplot(int(subplot_rows), int(subplot_cols), int(cidx+1))
         pl.title("cam{0}".format(cidx))
             
         if len(corners)>0:

@@ -2,6 +2,15 @@
 Changelog for package cv_bridge
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.16.2 (2022-10-03)
+-------------------
+
+1.16.1 (2022-09-06)
+-------------------
+* Fix 16U encoding type (`#445 <https://github.com/ros-perception/vision_opencv/issues/445>`_)
+* Add header arg to cv2_to_imgmsg (`#326 <https://github.com/ros-perception/vision_opencv/issues/326>`_)
+* Contributors: Ibrahim Essam, Kenji Brameld, Naoya Yamaguchi
+
 1.16.0 (2021-11-23)
 -------------------
 * prevent conversion of single channel 16bit integer images to/from colour (`#412 <https://github.com/ros-perception/vision_opencv/issues/412>`_)

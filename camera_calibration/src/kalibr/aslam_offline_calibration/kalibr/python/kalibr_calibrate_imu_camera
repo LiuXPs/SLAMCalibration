@@ -195,7 +195,8 @@ def main():
                       noTimeCalibration=parsed.no_time,
                       noChainExtrinsics=(not parsed.recompute_chain_extrinsics),
                       maxIterations=parsed.max_iter,
-                      timeOffsetPadding=parsed.timeoffset_padding,
+                      # timeOffsetPadding=parsed.timeoffset_padding,
+                      timeOffsetPadding=0.3,
                       verbose = parsed.verbose)
 
     print()
